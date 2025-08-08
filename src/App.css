@@ -4,3 +4,13 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-30px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 3.5s ease-in-out infinite;
+}
